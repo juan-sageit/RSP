@@ -1,13 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="%LOCALE_CODE%">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sage IT Remote Support Portal</title>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/username/repository/branch/path/to/your/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/juan-sageit/RSP/main/style.css" type="text/css" />
+    <script src="https://raw.githubusercontent.com/juan-sageit/RSP/main/script.js"></script>
+    %HEAD_INCLUDES%
 </head>
 <body>
-    <!-- Your HTML content goes here -->
+<div id="container">
 
-    <script src="https://raw.githubusercontent.com/username/repository/branch/path/to/your/script.js"></script>
+    <div id="header" class="contentBox">
+        <div class="pageTitle">
+            <img height="60" style="float: right;" src="%LOGO_URL%" alt="Company Logo"/>
+            %PAGE_TITLE%
+        </div>
+    </div>
+
+    %CONTENT_AREA%
+
+    <div id="footer" class="contentBox">
+        %COPYRIGHT%
+    </div>
+
+    <div id="powered-by">
+        %POWERED_BY%
+    </div>
+
+</div>
+
 </body>
 </html>
